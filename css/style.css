@@ -8710,28 +8710,22 @@ h1, h2, h3, h4, h5,
     content: "";
     display: inline-block;
     font-weight: bold;
-    color: #FFD700;
+    color: #ffbd39;
     animation: titles 6s infinite, fade 6s infinite;
     transform-origin: center;
   }
   
 @keyframes titles {
-    0%, 33% {
+    0%, 66% {
         content: "Data Science";
     }
-    34%, 66% {
-        content: "Data Analyst";
-    }
     67%, 100% {
-        content: "Data Engineer";
+        content: "Data Analysis";
     }
 }
   
 @keyframes fade {
-    0%, 33% {
-        opacity: 1;
-    }
-    34%, 66% {
+    0%, 66% {
         opacity: 1;
     }
     67%, 100% {
